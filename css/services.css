@@ -1,0 +1,42 @@
+body {
+	font-family: 'Source code pro', Calibri, serif;
+	margin: 0px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+	background-image: url('../images/services/imgtitre.jpg');
+	background-size: cover;
+	margin-top: 70px;
+	margin-bottom: 30px;
+    margin-left: 0px;
+	height: 450px;
+}
+
+.titre p {
+    font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 70px;
+}
+
+.texte{
+	display: flex;
+	align-items: center;
+	background-image: url('../images/services/imgcontenu.jpg');
+	background-size: cover;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 500px;
+}
+
+.contenue p {
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: xx-large;
+}

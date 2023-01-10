@@ -1,0 +1,83 @@
+body {
+	font-family: 'Source code pro', Calibri, serif;
+	margin: 0px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.images1, .images2{
+	width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+.presentation{       
+	margin-top: 150px;
+	margin-bottom: 50px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#merch {
+	margin-bottom: 50px;
+	background-color: #dfdfdf;
+	height: 400px;
+}
+
+.titremerch{
+	font-style: normal;
+	font-family: 'Source code pro', Calibri, serif;
+	text-decoration: underline;
+	text-align: center;
+	color: black;
+}
+
+#produits {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#partenaires {
+	margin-bottom: 50px;
+	background-color: #dfdfdf;
+	height: 300px;
+}
+.contact {
+	margin-bottom: 50px;
+	background-color: #dfdfdf;
+	height: 180px;
+}
+.contact>h1{
+	font-style: normal;
+	font-family: 'Source code pro', Calibri, serif;
+	text-decoration: underline;
+	text-align: center;
+	color: black;
+}
+.contact>p{
+	font-style: normal;
+	font-family: 'Source code pro', Calibri, serif;
+	text-align: center;
+	color: black;
+}
+.titre {
+	font-style: normal;
+	font-family: 'Source code pro', Calibri, serif;
+	text-decoration: underline;
+	text-align: center;
+	color: black;
+}
+
+
+#logopartner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.microsoft a img, .playing_for_the_planet a img,  .humblebundle  a img{
+	width: 350px;
+}
+
+

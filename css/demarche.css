@@ -1,0 +1,33 @@
+section{
+	margin-bottom: 22px;
+	margin-top: 110px;
+}
+.img {
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	}
+.div_img {
+	background-size: cover;
+	height: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.environnement{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+    width: 40%;
+}
+.transition{
+    width: 400px;
+}
+.environnement>p{
+    margin-left: auto;
+    margin-right: auto;
+}

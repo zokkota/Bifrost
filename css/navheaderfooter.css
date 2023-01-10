@@ -1,0 +1,119 @@
+body>header, body>footer {
+	width: 100%;
+	height: 90px;
+	margin: 0px;
+	padding: 10px;
+	background-color: black;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	height: 50px;
+	display : flex;
+    justify-content: space-between;
+
+}
+
+header > a > img {
+    width: 100px;
+}
+
+footer {
+	bottom: auto;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+}
+
+footer > a.logofooter > img{
+	justify-content: flex-end;
+	width: 113px;
+}
+
+footer > a > img{
+	width: 65px;
+}
+
+nav {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 70px;
+	left:0;
+	width: 100%;
+	padding: 0;
+	margin:0;
+	border: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	border-style:  none;
+	margin: 0 calc((100% - var(--width-content))/2);
+	font-size:  15px;
+}
+
+nav > ul {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav.nav-gauche2 ul > li > a {
+	color: rgb(3, 3, 3);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav.nav-droite2 ul > li > a {
+	color: rgb(3, 3, 3);
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav > ul > li {
+	color: rgb(255, 255, 255);
+ 	background-color: rgba(0, 0, 0, 0.95);
+	height: 30px;
+	width: 20%;
+	min-width : 150px;
+	padding-top : 10px;
+}
+
+nav ul ul {
+	display: none;
+}
+nav > ul > li:hover > ul {
+	display: block;
+	background-color: rgb(255, 255, 255);
+}
+nav ul > li:hover {
+	color: rgb(2, 2, 2);
+	background-color: rgb(115, 172, 238);
+	text-decoration: none;
+	font-weight: bold;
+}
+nav ul > li > a:hover {
+	color: rgb(5, 5, 5);
+	font-style: italic;
+}
+
+nav.nav-gauche1 li > a{
+    color: white;
+    text-decoration: none;
+	font-weight: bold;
+}
+
+nav.nav-droite1 li > a{
+    color: white;
+    text-decoration: none;
+	font-weight: bold;
+}
